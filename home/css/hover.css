@@ -22,6 +22,12 @@
     color: white;
 }
 
+.card-jogo > img:hover{
+    box-shadow: 10px 5px 5px black;
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
 .btn:hover{
     box-shadow: 7px 3px 3px black;
     transform: scale(1.1);
