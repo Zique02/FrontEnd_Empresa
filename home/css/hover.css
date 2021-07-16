@@ -18,7 +18,11 @@
     
 }
 
-
 .login:hover{
     color: white;
+}
+
+.btn:hover{
+    box-shadow: 7px 3px 3px black;
+    transform: scale(1.1);
 }

@@ -143,7 +143,11 @@ header{
     border-radius: 9px;
     transition: 0.4s;
     border: none;
-    background-color: #D62121;
+    /* background-color: #D62121; */
     font-family:  'Barlow Condensed', sans-serif;
+    background: #F00000;  
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  
+    background: linear-gradient(to right, #DC281E, #F00000);
+   
 }
 
