@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 140px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+}
+
+.menu li{
+    color: #D62121;
+    margin-left: 40px;
+    padding: 10px;
+    list-style: none;
+}
+
