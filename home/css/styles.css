@@ -13,7 +13,9 @@ header{
     position: sticky;
     top: 0;
     justify-content: space-between;
-    background-color: black;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     align-items: center;
     padding: 10px;
     flex-wrap: wrap;
@@ -32,9 +34,26 @@ header{
 
 .menu li{
     color: #D62121;
-    margin-left: 40px;
-    padding: 10px;
+    margin-left: 25px;
+    padding: 1px;
+    padding-left: 6px;
     list-style: none;
+    font-weight: bolder;
+    border-left: 1px solid #D62121;
+}
+
+.login{
+    background: #F00000;  
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  
+    background: linear-gradient(to right, #DC281E, #F00000);
+    box-shadow: 5px 2px 2px black; 
+    padding: 10px 30px;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 #categorias{
@@ -45,5 +64,10 @@ header{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     outline: none;
+    font-weight: bolder;
+    border-left: 1px solid #D62121;
+    padding-left: 5px;
 }
 
+
+/* FIM HEADER */
