@@ -1,0 +1,24 @@
+.menu li:hover{
+    color: white;
+    font-weight: bold;
+    transform: scale(1.1);
+    background: 200px;
+}
+
+#categorias:hover{
+    color: white;
+    font-weight: bold;
+    transform: scale(1.1);
+    background: 200px;
+}
+
+.menu-right:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+
+
+.login:hover{
+    color: white;
+}
