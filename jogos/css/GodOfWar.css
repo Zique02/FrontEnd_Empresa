@@ -1,47 +1,46 @@
 body{
-    background-color: #303030;
+    background-color: #353535;
 }
 
 .banner{
     background-image: url('../img/gow-bg.png');
 }
 
-article .element-of-game{
+.element-of-game{
     font-size: var(--default-font-size);
     margin-top: 99px;
 }
 
-article .element-of-game  h2{
+.element-of-game  h2{
     padding: 18px 0;
-    background-color: #101010;
+    background-color: #252525;
     text-align: center;
     font-size: bold;
     color: var(--default-color);
 }
 
-article .element-of-game .content{
+.element-of-game .content{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 0 9vw;
+    padding: 0 12vw;
     margin: 32px 0;
-    max-width: 90vw;
 }
 
-article .element-of-game .content.reverse{
+.element-of-game .content.reverse{
     flex-flow: row-reverse wrap;
 }
 
-article .element-of-game .content img{
+.element-of-game .content img{
     max-width: 318px;
     max-height: 418px;
 }
 
-article .element-of-game .content p{
+.element-of-game .content p{
     font-size: 1.1em;
     color: #EEE;
-    background-color: #101010;
+    background-color: #252525;
     padding: 24px;
     line-height: 2.2rem;
     border-radius: 6px;
@@ -55,6 +54,6 @@ hr {
     width: 100%;
     height: 1px;
     border: 0px;
-    border-top: 1px solid #101010;
-    background-color: #101010;
+    border-top: 1px solid #252525;
+    background-color: #252525;
 }
