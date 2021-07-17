@@ -1,5 +1,5 @@
 body{
-    background-color: #eee;
+    background-color: #303030;
 }
 
 .banner{
@@ -13,7 +13,7 @@ article .element-of-game{
 
 article .element-of-game  h2{
     padding: 18px 0;
-    background-color: #ddd;
+    background-color: #101010;
     text-align: center;
     font-size: bold;
     color: var(--default-color);
@@ -39,7 +39,9 @@ article .element-of-game .content img{
 }
 
 article .element-of-game .content p{
-    background-color: #ddd;
+    font-size: 1.1em;
+    color: #EEE;
+    background-color: #101010;
     padding: 24px;
     line-height: 2.2rem;
     border-radius: 6px;
@@ -47,4 +49,12 @@ article .element-of-game .content p{
     margin: 32px;
     max-width: 40%;
     min-width: 300px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #101010;
+    background-color: #101010;
 }
