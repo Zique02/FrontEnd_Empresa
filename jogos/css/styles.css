@@ -8,16 +8,75 @@
 
 header
 {
-    display: flex;
     height: 90px;
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    width: 100vw;
+    
+}
+
+header nav
+{
+    height: 100%;
+}
+
+header .top_menu_nav
+{
+    display: flex;
     align-items: center;
-    flex-direction: row;
+    height: 100%;
+    padding: 0 20px;
+    list-style: none;
+    width: 100%;
+}
+
+.top_menu_nav .item
+{
+    margin: 0 10px;
 }
 
 header .logo
 {
     width: 140px;
+}
+
+.top_menu_nav .item.gow
+{
+    padding: 3px 10px;
+    border-left: 1px solid red;
+    color: #D62121;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bolder; 
+}
+
+.top_menu_nav:last-child()
+{
+    justify-self: flex-end;
+    background-color: wheat;
+}
+
+.chaos
+{
+    height: 60%;
+}
+
+.last_item
+{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.banner
+{
+    background-image: url('../img/gow-bg.webp');
+    width: 100vw;
+    height: 100vh;
+    background-position-x: left;
+    background-size: 10%;
+    background-repeat: no-repeat;
 }
