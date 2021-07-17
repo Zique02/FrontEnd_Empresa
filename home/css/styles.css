@@ -46,7 +46,6 @@ header{
     background: #F00000;  
     background: -webkit-linear-gradient(to right, #DC281E, #F00000);  
     background: linear-gradient(to right, #DC281E, #F00000);
-    box-shadow: 5px 2px 2px black; 
     padding: 10px 30px;
     margin-right: 30px;
     border-radius: 5px;
@@ -104,6 +103,19 @@ header{
     color: black;
 }
 
+.inscreva{
+    margin-top: 20px;
+    width: 15%;
+    padding: 10px;
+    background-color: #D62121;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Barlow Condensed', sans-serif;
+    transition: 0.4s;
+}
+
 .img-banner{
     width: 10%;
 }
@@ -133,6 +145,10 @@ header{
     object-fit: cover;
     border: 1px solid black;
     transition: all 0.3s ease-in-out;
+}
+
+.card-jogo h4{
+    font-size: 35px;
 }
 
 .btn{
