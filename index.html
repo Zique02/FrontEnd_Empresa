@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hover.css">
     <!-- fav icon -->
-    <link rel="shortcut icon" href="home\img\endless (1).png">
+    <link rel="shortcut icon" href="home/img/endless (1).png">
     <title>Formulario</title>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,18 +20,23 @@
 
 </head>
 <body>
+    
+    <video class="videobg" autoplay loop>
+    <source src="./assets/video/login-video.mp4" type="video/mp4">
+    </video> 
+
     <!-- formulario -->
     <form class="form">
-        <img id="logo"src="home\img\endless (1).png" alt="logo do site no form">
+        <img src="./home/img/logo.svg" alt="Infinity Games" id="logo">
         <!-- email -->
         <div>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="exemplo@gmail.com">
+            <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" class="inputbox">
         </div>
         <!-- senha -->
         <div>
             <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" placeholder="************">
+            <input type="password" id="senha" name="senha" placeholder="************" class="inputbox">
         </div>
         <!-- botões -->
         <div>
