@@ -19,6 +19,7 @@ header{
     background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     align-items: center;
     padding: 10px;
+    z-index: 10;
     flex-wrap: wrap;
 }
 
