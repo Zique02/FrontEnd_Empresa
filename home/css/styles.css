@@ -11,16 +11,15 @@ body{
 
 header{
     display: flex;
-    position: sticky;
+    position: fixed;
+    width: 100vw;
     top: 0;
     justify-content: space-between;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     align-items: center;
     padding: 10px;
     z-index: 10;
     flex-wrap: wrap;
+    transition: background-color 1s;
 }
 
 .logo{
@@ -94,11 +93,11 @@ header{
 .banner{
     background-image: url('../img/banner.jpg');
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 92px);
+    height: 100vh;
     color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
