@@ -9,9 +9,6 @@
 header
 {
     height: 90px;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: fixed;
     width: 100vw;
     
@@ -73,10 +70,16 @@ header .logo
 
 .banner
 {
-    background-image: url('../img/gow-bg.webp');
+    background-image: url('../img/gow-bg.png');
     width: 100vw;
     height: 100vh;
     background-position-x: left;
-    background-size: 10%;
+    background-size: 110%;
     background-repeat: no-repeat;
+}
+
+#teste
+{
+    width: 100vw;
+    height: 100vh;
 }
