@@ -1,3 +1,6 @@
+@import url(jogos.css);
+@import url(../../css/animate.css);
+
 body{
     background-color: #353535;
 }
