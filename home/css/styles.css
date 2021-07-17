@@ -86,6 +86,8 @@ header{
     width: 100%;
     height: calc(100vh - 92px);
     color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .banner h1{
