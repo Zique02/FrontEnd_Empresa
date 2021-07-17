@@ -22,37 +22,40 @@
 <body>
     <!-- HEADER -->
     <header>
-             <nav>
+            <nav>
                  <!-- MENU -->
-                 <ul class="menu">
-                    <img  class="logo" src="./img/logo.svg" alt="logo do site">
-                    <a href=""><li>Home</li></a>
-                    <a href=""><li>Jogos</li></a>
-                    <select name="categorias" id="categorias">
-                        <option value="">Categorias</option>
-                        <option value="">Aventura</option>
-                        <option value="">Ação</option>
-                        <option value="">MMO</option>
-                    </select>
-                    <a id="contact" href=""><li>Contact</li></a>
-                 </ul>
-             </nav>
+                <ul class="menu">
+                    <img class="logo" src="./img/logo.svg" alt="logo do site">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#jogos">Jogos</a></li>
+                    <li><a>Categorias v</a>
+                        <ul>
+                            <li><a href="#jogos-aventura">Aventura</a></li>
+                            <li><a href="#jogos-acao">Ação</a></li>
+                        </ul>                
+                    </li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
              <!-- BUTTON LOGIN -->
-             <div class="menu-right">
+            <div class="menu-right">
                 <button class="login">Login</button>
-             </div>
+            </div>
              <!-- MAIN -->
-       </header>
+   </header>
        <main>
            <!-- BANNER -->
-             <div class="banner">
-                 <img class="img-banner" src="./img/endless (1).png" alt="">
+            <div class="banner">
+                <img class="img-banner" src="./img/endless (1).png" alt="">
                     <h1>INFINITY</h1>
-                    <p><span>Jogue</span> Eternamente</p>
+                    <p>Jogue Eternamente</p>
                     <button class="inscreva">Inscreva-se</button>
-             </div> 
-             <h2 class="genero">Jogos de Aventura</h2>
-             <div id="jogos" class="card-grid">
+            </div> 
+
+            <!-- GRID -->
+            <div id="jogos"></div>
+            <h2 id="jogos-aventura" class="genero">Jogos de Aventura</h2>
+            <div class="card-grid">
                 <div class="card-jogo aventura">
                     <img src="./img/godofwar_banner.jpg" alt="">
                     <h4>God of War</h4>
@@ -68,9 +71,9 @@
                     <h4>Uncharted 4</h4>
                     <button class="btn">Jogar</button>
                 </div>
-             </div>
-             <h2 class="genero">Jogos de Ação</h2>
-             <div id="jogos" class="card-grid">
+            </div>
+            <h2 id="jogos-acao" class="genero">Jogos de Ação</h2>
+            <div id="jogos" class="card-grid">
                 <div class="card-jogo acao">
                     <img src="./img/Rdr2.jpg" alt="">
                     <h4>Red Dead Redemption II</h4>
@@ -86,20 +89,23 @@
                     <h4>Mortal Kombat 11</h4>
                     <button class="btn">Jogar</button>
                 </div>
-             </div>
-        </main>
-        <footer class="footer">
-            <div class="footer-img">
-                <a href="https://github.com/aloisiot" target="_blank"><img class="img-perfil" src="./img-devs/aloisio.png" alt="">
-                <a href="https://github.com/ramondfalcao" target="_blank"><img class="img-perfil" src="./img-devs/ramond.jpg" alt=""></a>
-                <a href="https://github.com/HenriqueC4" target="_blank" ><img class="img-perfil" src="./img-devs/hcesar" alt=""></a>
-                <a href="https://github.com/Zique02" target="_blank" ><img class="img-perfil" src="./img-devs/htorres.png" alt=""></a>
-                <a href="https://github.com/carlosferreirab25" target="_blank" ><img class="img-perfil" src="./img-devs/carlos.png" alt=""></a>
-                <a href="https://github.com/MuriloMuca" target="_blank" ><img class="img-perfil" src="./img-devs/murilo.png" alt=""></a>
-                <a href="https://github.com/diegodomcal" target="_blank" ><img class="img-perfil" src="./img-devs/diego.png" alt=""></a>
-                <a href="https://github.com/Alexandre-digital" target="_blank" ><img class="img-perfil" src="./img-devs/diego.png" alt=""></a>
             </div>
-            <h5>©Direitos Reservados</h5>
-        </footer>
+        </main>
+        <!-- FOOTER -->
+    <footer class="footer">
+        <h3>GitHub dos Devs:</h3>
+        
+        <div id="contatos" class="footer-img">
+            <a href="https://github.com/aloisiot" target="_blank"><img class="img-perfil" src="./img-devs/aloisio.png" alt="githubAloisio"></a>
+            <a href="https://github.com/ramondfalcao" target="_blank"><img class="img-perfil" src="./img-devs/ramond.jpg" alt="githubRamond"></a>
+            <a href="https://github.com/HenriqueC4" target="_blank" ><img class="img-perfil" src="./img-devs/hcesar" alt="githubHCesar"></a>
+            <a href="https://github.com/Zique02" target="_blank" ><img class="img-perfil" src="./img-devs/htorres.png" alt="githubHTorres"></a>
+            <a href="https://github.com/carlosferreirab25" target="_blank" ><img class="img-perfil" src="./img-devs/carlos.png" alt="githubCarlos"></a>
+            <a href="https://github.com/MuriloMuca" target="_blank" ><img class="img-perfil" src="./img-devs/murilo.png" alt="githubMurilo"></a>
+            <a href="https://github.com/diegodomcal" target="_blank" ><img class="img-perfil" src="./img-devs/diego.png" alt="githubDiego"></a>
+            <a href="https://github.com/Alexandre-digital" target="_blank" ><img class="img-perfil" src="./img-devs/diego.png" alt="githubAlexandre"></a>
+        </div>
+        <h5>©Direitos Reservados INFINITY</h5>
+    </footer>
 </body>
 </html>

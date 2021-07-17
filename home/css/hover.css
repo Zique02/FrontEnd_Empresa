@@ -1,16 +1,16 @@
-.menu li:hover{
+.menu a:hover{
     color: white;
     font-weight: bold;
     transform: scale(1.1);
     background: 200px;
 }
+/* menu de categorias */
+.menu li:hover ul{
+    display: block;
+    border-radius: 5px;
+}
+/* ------------------ */
 
-#categorias:hover{
-    color: white;
-    font-weight: bold;
-    transform: scale(1.1);
-    background: 200px;
-}
 
 .menu-right:hover{
     transform: scale(1.1);
