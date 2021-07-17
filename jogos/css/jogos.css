@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 header
@@ -39,22 +40,15 @@ header .logo
     width: 140px;
 }
 
-.top_menu_nav .item.gow
+.top_menu_nav .item.game-name
 {
     padding: 3px 10px;
-    border-left: 1px solid red;
+    border-left: 1px solid #D62121;
     color: #D62121;
-    font-family: 'Barlow Condensed', sans-serif;
     font-weight: bolder; 
 }
 
-.top_menu_nav:last-child()
-{
-    justify-self: flex-end;
-    background-color: wheat;
-}
-
-.chaos
+.game-reference
 {
     height: 60%;
 }
@@ -70,7 +64,8 @@ header .logo
 
 .banner
 {
-    background-image: url('../img/gow-bg.png');
+    display: flex;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background-position-x: left;
@@ -82,4 +77,23 @@ header .logo
 {
     width: 100vw;
     height: 100vh;
+}
+
+.description{
+    color: #ccc;
+    margin-top: 10vh;
+    margin-left: 10%;
+    width: 380px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,0.7);
+    padding: 32px;
+    border-radius: 9px;
+}
+
+.description h1{
+    font-weight: bolder;
+    color: #D62121;
+    font-size: 2em;
+    margin-bottom: 12px;
 }
