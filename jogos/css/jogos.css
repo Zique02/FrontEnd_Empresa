@@ -1,3 +1,6 @@
+@import url(GodOfWar.css);
+@import url(../../css/animate.css);
+
 *
 {
     margin: 0;
@@ -5,14 +8,18 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Barlow Condensed', sans-serif;
+    --default-font-size: 1.5rem;
+    --default-color: #D62121;
 }
 
 header
 {
     height: 90px;
     position: fixed;
+    z-index: 10;
     width: 100vw;
     transition: background-color 1s;
+    animation: fadeIn 1s ease-out both;
 }
 
 header nav
@@ -43,8 +50,8 @@ header .logo
 .top_menu_nav .item.game-name
 {
     padding: 3px 10px;
-    border-left: 1px solid #D62121;
-    color: #D62121;
+    border-left: 1px solid var(--default-color);
+    color: var(--default-color);
     font-weight: bolder; 
 }
 
@@ -66,34 +73,29 @@ header .logo
 {
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-position-x: left;
     background-size: 110%;
     background-repeat: no-repeat;
 }
 
-#teste
-{
-    width: 100vw;
-    height: 100vh;
-}
-
-.description{
+.banner .description{
     color: #ccc;
     margin-top: 10vh;
     margin-left: 10%;
     width: 380px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: var(--default-font-size);
     background-color: rgba(0,0,0,0.7);
     padding: 32px;
     border-radius: 9px;
+    animation: scaleOutIn 1s ease-out both;
 }
 
-.description h1{
+.banner  .description h1{
     font-weight: bolder;
-    color: #D62121;
+    color: var(--default-color);
     font-size: 2em;
     margin-bottom: 12px;
 }

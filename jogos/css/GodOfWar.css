@@ -1,3 +1,50 @@
+body{
+    background-color: #eee;
+}
+
 .banner{
     background-image: url('../img/gow-bg.png');
+}
+
+article .element-of-game{
+    font-size: var(--default-font-size);
+    margin-top: 99px;
+}
+
+article .element-of-game  h2{
+    padding: 18px 0;
+    background-color: #ddd;
+    text-align: center;
+    font-size: bold;
+    color: var(--default-color);
+}
+
+article .element-of-game .content{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 9vw;
+    margin: 32px 0;
+    max-width: 90vw;
+}
+
+article .element-of-game .content.reverse{
+    flex-flow: row-reverse wrap;
+}
+
+article .element-of-game .content img{
+    max-width: 318px;
+    max-height: 418px;
+}
+
+article .element-of-game .content p{
+    background-color: #ddd;
+    padding: 24px;
+    line-height: 2.2rem;
+    border-radius: 6px;
+    vertical-align: center;
+    margin: 32px;
+    max-width: 40%;
+    min-width: 300px;
 }
