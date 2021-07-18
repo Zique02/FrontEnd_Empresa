@@ -18,7 +18,7 @@ header
     z-index: 10;
     width: 100vw;
     transition: background-color 1s;
-    animation: fadeIn 1s ease-out both;
+    animation: fadeIn 1s ease-in-out both;
 }
 
 header nav
@@ -89,7 +89,7 @@ header .logo
     background-color: rgba(0,0,0,0.7);
     padding: 32px;
     border-radius: 9px;
-    animation: scaleOutIn 1s ease-out both;
+    animation: scaleOutIn 1s ease-in-out both;
 }
 
 .banner  .description h1{
