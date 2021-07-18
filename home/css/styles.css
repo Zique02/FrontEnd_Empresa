@@ -9,6 +9,56 @@ body{
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+#toggle-screen{
+    position: fixed;
+    z-index: 100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#toggle-screen ul{
+    width: 90%;
+    height: 70%;
+    background-color: #fff;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #D62121;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 12px;
+    font-size: 2.3rem;
+}
+
+#toggle-screen ul #close{
+    /* margin-top: -24px;
+    margin-right: -24px; */
+    padding: none;
+    margin: none;
+    right: 12px;
+    border: none;
+}
+
+#toggle-screen ul li{
+    border-bottom: 1px solid rgb(214, 33, 33, 0.4);
+    padding-bottom: 9px;
+}
+
+#toggle-screen #close{
+    align-self: stretch;
+    align-self: flex-end;
+
+}
+
+#toggle-screen #close img{
+    width: 52px;
+}
+
 header{
     display: flex;
     position: fixed;
