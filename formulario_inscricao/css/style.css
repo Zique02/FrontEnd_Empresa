@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Barlow Condensed', sans-serif;
+    --default-font-size: 1.5rem;
+    --default-color: #D62121;
+}
+
+header
+{
+    height: 90px;
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    background-color: #2e3033 ;
+}
+
+header nav
+{
+    height: 100%;
+}
+
+header .top_menu_nav
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    list-style: none;
+    width: 100%;
+}
+
+.top_menu_nav .item
+{
+    margin: 0 10px;
+}
+
+header .logo
+{
+    width: 140px;
+}
+
+.top_menu_nav .item.game-name
+{
+    padding: 3px 10px;
+    border-left: 1px solid var(--default-color);
+    color: var(--default-color);
+    font-weight: bolder; 
+}
+
+body{
+    font-family:'Barlow Condensed', sans-serif;
+    background-color: white;
+    background-image: url('../img/grey-bg.jpg');
+
+
+}
+
+h1{
+    color: #fa4454 ;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    background-color:#2e3033;
+    display: inline-block;
+    margin-top:  120px;
+    padding: 1.5%;
+    max-width: 80%;
+    margin-left: 5% ;
+    text-align: center;
+    border-radius: 6px;   
+}
+
+.formulario label{
+    display: block;
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: left;
+    
+
+}
+
+.inputbox{
+    border:none;
+    border-bottom: #fa4454 1px solid;
+    font-size: 20px;
+    outline: none;
+    width: 90%;
+    padding:10px 0px;
+    background-color: #2e3033;
+    color:white;
+    border-radius: 3px;
+    transition: 0.4s ease-in-out;
+}
+
+#nascimento>input{
+    border: none;
+    border:none;
+    border-bottom: #fa4454 1px solid;
+    font-size: 20px;
+    outline: none;
+    width: 90%;
+    padding:10px 0px;
+    background-color: #2e3033;
+    color:white;
+    border-radius: 3px;
+    transition: 0.4s ease-in-out;
+}
+
+#confirmacao>input{
+    position: relative;
+    display: block;
+    bottom: 0;
+    bottom: -26px;
+    right: -27px;
+}
+
+#confirmacao>label{
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    top: 10;
+    padding:0;
+}
+
+/* BOTÕES */
+
+.btn{
+    background: #fa4454;
+    border: none;
+    color: white;
+    margin: 15px 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 3px;
+    transition: 0.4s ease-in-out;
+}
+
+.texto{
+    color: #fa4454;
+    font-size: 35px;  
+    margin-top: -25%;
+    margin-left: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.4s ease-in-out;
+}

@@ -175,6 +175,10 @@ header{
     
 }
 
+.banner a{
+    text-decoration: none;
+    color: whitesmoke;
+}    
 
 .inscreva{
     margin-top: 20px;

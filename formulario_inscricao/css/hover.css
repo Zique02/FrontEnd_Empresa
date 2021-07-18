@@ -2,6 +2,10 @@
     background-color: #fa4454;
 }
 
+#nascimento>input:hover{
+    background-color: #fa4454;
+}
+
 .btn:hover{
     background-color: whitesmoke;
     color: #fa4454;
