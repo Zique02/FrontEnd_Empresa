@@ -1,0 +1,62 @@
+@media (min-width: 360px){
+    .formulario{
+        margin-top: 120px;
+        margin-left: 10%;
+    }
+    .texto{
+        opacity: 0;
+    }
+
+}
+
+@media (min-width: 768px){
+    .formulario{
+        margin-top: 120px;
+        margin-left: 10%;
+    }
+    .texto{
+        opacity: 100;
+        margin-top: -400px;
+        margin-left: 420px;
+    }
+
+}
+
+@media (min-width: 1080px){
+    .formulario{
+        margin-top: 120px;
+        margin-left: 10%;
+    }
+    .texto{
+        opacity: 100;
+        margin-top: -400px;
+        margin-left: 480px;
+    }
+
+}
+
+@media (min-width: 1440px){
+    .formulario{
+        margin-top: 120px;
+        margin-left: 10%;
+    }
+    .texto{
+        opacity: 100;
+        margin-top: -400px;
+        margin-left: 500px;
+    }
+
+}
+
+@media (min-width: 1600px){
+    .formulario{
+        margin-top: 120px;
+        margin-left: 10%;
+    }
+    .texto{
+        opacity: 100;
+        margin-top: -400px;
+        margin-left: 550px;
+    }
+
+}
