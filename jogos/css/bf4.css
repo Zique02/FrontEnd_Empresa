@@ -1,6 +1,8 @@
 /* Parte dos Jogos */
 
 @import url(../../css/animate.css);
+@import url(./hover.css);
+@import url(./responsive.css);
 
 *
 {
@@ -113,6 +115,10 @@ header .logo
 
 body{
     background-color: #353535;
+}
+
+.element-of-game.description{
+    display: none;
 }
 
 .banner{

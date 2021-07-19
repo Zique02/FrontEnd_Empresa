@@ -1,5 +1,7 @@
 @import url(jogos.css);
 @import url(../../css/animate.css);
+@import url(./hover.css);
+@import url(./responsive.css);
 
 body{
     background-color: #353535;
