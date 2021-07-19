@@ -10,3 +10,9 @@ body{
 .banner{
     background-image: url('../img/rdr2-banner.jpg');
 }
+
+@media (max-width: 840px){
+    .banner{
+        background-image: url(../img/rd-mobile.jpg);
+    }
+}

@@ -11,3 +11,9 @@ body{
 .banner{
     background-image: url('../img/uncharted-banner.jpg');
 }
+
+@media (max-width: 840px){
+    .banner{
+        background-image: url(../img/unsharted-mobile.jpg);
+    }
+}
