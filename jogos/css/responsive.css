@@ -1,0 +1,42 @@
+/* Ajustes para para img presente no HEADER referente ao jogo */
+
+@media (max-width: 490px) {
+    .last_item{
+        display: none;
+    }
+}
+
+/* Ajustes para banner e descrição contina no banner */
+@media (max-width: 1145px){
+    .banner{
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 840px){
+    .banner{
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    .banner .description{
+        width: 90%;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 440px){
+    .banner .description{
+        display: none;
+    }
+    
+    .element-of-game.description{
+        display: inline;
+    }
+    
+    .element-of-game.description div.content{
+        padding: 0;
+    }
+}
