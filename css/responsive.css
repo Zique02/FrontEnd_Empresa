@@ -8,7 +8,6 @@
         max-width: 60%;
         margin: auto;
         text-align: center;
-        display: block;
     }
     body{
         margin-top: 10px;
@@ -22,7 +21,7 @@
         max-width: 60%;
         margin: auto;
         text-align: center;
-        display: block;
+
     }
     body{
         margin-top: 50px;
@@ -31,8 +30,6 @@
 
 @media (min-width: 490px){
     .form{
-        background-color:#2e3033f1;
-        display: block;
         margin-top:  100px;
         padding: 1.5%;
         max-width: 25%;
