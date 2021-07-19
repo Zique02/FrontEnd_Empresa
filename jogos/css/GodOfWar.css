@@ -5,62 +5,7 @@
 @import url(./responsive.css);
 
 .banner{
-
-}
-
-.element-of-game{
-    font-size: var(--default-font-size);
-    margin-top: 99px;
-}
-
-.element-of-game  h2{
-    padding: 18px 0;
-    background-color: #252525;
-    text-align: center;
-    font-size: bold;
-    color: var(--default-color);
-}
-
-.element-of-game .content{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 12vw;
-    margin: 32px 0;
-}
-
-.element-of-game .content.reverse{
-    flex-flow: row-reverse wrap;
-}
-
-.element-of-game .content img{
-    max-width: 318px;
-    max-height: 418px;
-}
-
-.element-of-game .content p{
-    font-size: 1.1em;
-    color: #EEE;
-    background-color: #252525;
-    padding: 24px;
-    line-height: 2.2rem;
-    border-radius: 6px;
-    vertical-align: center;
-    margin: 32px;
-    max-width: 40%;
-    min-width: 300px;
-}
-
-hr {
-    width: 100%;
-    height: 1px;
-    border: 0px;
-    border-top: 1px solid #252525;
-    background-color: #252525;
-}
-
-    background-image: url('../img/gow-bg.png');
+    background-image: url(../img/gow-bg.webp);
 }
 
 @media (max-width: 840px){
@@ -68,4 +13,3 @@ hr {
         background-image: url(../img/kratos.jpg);
     }
 }
-
