@@ -1,0 +1,4 @@
+/* Hover para logo no cabeçalho */
+header .logo:hover{
+    opacity: 0.75;
+}
