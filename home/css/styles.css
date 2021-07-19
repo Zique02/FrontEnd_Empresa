@@ -252,6 +252,7 @@ main h2{
 /* FOOTER */
 footer{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 20px;
     margin-top: 30px;
@@ -271,9 +272,15 @@ footer strong{
     color: black;
 }
 
+footer #contatos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .img-perfil{
-    width: 8%;
-    margin-left: 40px;
+    width: 105px;
+    margin: 12px;
     border-radius: 50%;
     transition: 0.5s;
     border: 2px solid black;
