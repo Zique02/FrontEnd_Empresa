@@ -184,6 +184,7 @@ hr {
 /* FOOTER */
 footer{
     display: flex;
+    font-size:1.2rem;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
@@ -198,6 +199,8 @@ footer{
 
 footer h3, h5{
     color: white;
+    margin: 12px 0;
+
 }
 
 footer strong{
