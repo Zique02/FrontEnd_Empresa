@@ -11,6 +11,8 @@
 
 body{
     font-family: 'Barlow Condensed', sans-serif;
+    background-color: #202020;
+    color: #ccc;
 }
 
 /* Inicio da estilizaçao para lista suspensa do menu 'hamburguer' */
@@ -258,6 +260,14 @@ main h2{
     text-decoration: underline;
 }
 
+h2#jogos-aventura.genero, h2#jogos-acao.genero{
+    margin-top: 60px;
+}
+
+main h4{
+    margin-top: 24px;
+}
+
 /* GRID */
 
 .genero{
@@ -282,6 +292,15 @@ main h2{
     object-fit: cover;
     border: 1px solid black;
     transition: all 0.3s ease-in-out;
+}
+
+hr {
+    margin-top: 60px;
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 2px solid #151515;
+    background-color: #252525;
 }
 
 .card-jogo h4{
