@@ -1,3 +1,5 @@
 @media (max-width: 490px){
-    
+    .hiden-from-490{
+        display: none;
+    }
 }
