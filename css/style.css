@@ -8,7 +8,7 @@
 body{
     font-family:'Barlow Condensed', sans-serif;
     background-image: url();
-    background-color: rgb(39, 35, 35);
+    background-color: #2e3033f1;
 
 
 }
@@ -16,7 +16,7 @@ body{
 /* Formulário */
 
 .form{
-    background-color:#2e3033;
+    background-color:#2e3033f1;
     display: inline-block;
     margin-top:  100px;
     padding: 1.5%;
@@ -48,7 +48,7 @@ input[type='password']{
     outline: none;
     width: 90%;
     padding:10px 0px;
-    background-color: #2e3033;
+    background-color: #2e3033ec;
     color:white;
     border-radius: 3px;
     transition: 0.4s ease-in-out;
@@ -68,6 +68,14 @@ input[type='password']{
     transition: 0.4s ease-in-out;
 }
 
+
+/* LINK PRO FORMULÁRIO DE INSCRIÇÃO */
+
+.link-inscrição, 
+.link-home{
+    text-decoration: underline;
+    font-weight: bold;
+}
 
 /* VÍDEO DE FUNDO */
 
