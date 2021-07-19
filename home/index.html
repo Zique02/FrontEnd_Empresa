@@ -24,11 +24,20 @@
     <section id="toggle-screen">
         <ul>
             <li onclick="fechar()" id="close"><img src="icons/close-icon.png" alt=""></li>
-            <li>option</li>
-            <li>option</li>
-            <li>option</li>
-            <li>option</li>
-            <li>option</li>
+            <li onclick="fecharRedirecionarHome()"><a href="#">Home</a></li>
+            <li onclick="fecharRedirecionarJogos()" ><a href="#jogos">Jogos</a></li>
+            <li onclick="fecharRedirecionarContatos()" ><a href="#contatos">Contatos</a></li>
+            <li class="categorias">Categorias<img src="icons/seta-para-baixo.png" alt="">
+                <ul>
+                    <li><a  onclick="fecharRedirecionarAventura()" href="#jogos-aventura">Aventura</a></li>
+                    <li><a  onclick="fecharRedirecionarAcao()" href="#jogos-acao">Ação</a></li>
+                </ul>
+            </li>
+            <li onclick="fecharRedirecionarLoin()" class="login-in-menu">
+                <a href="../index.html">
+                    <button class="login">Login</button>
+                </a>
+            </li>
         </ul>
     </section>
     <!-- HEADER -->
@@ -36,23 +45,25 @@
             <nav>
                  <!-- MENU -->
                 <ul class="menu" >
-                    <img onclick="displayMenuToggle()" class="logo" src="./img/logo.svg" alt="logo do site">
-                    <li class='hiden-from-490'><a href="#">Home</a></li>
-                    <li class='hiden-from-490'><a href="#jogos">Jogos</a></li>
-                    <li class='hiden-from-490'><a class="categorias">Categorias v</a>
+                    <img class="logo" src="./img/logo.svg" alt="logo do site">
+                    <li class='hidden-from-490'><a href="#">Home</a></li>
+                    <li class='hidden-from-490'><a href="#jogos">Jogos</a></li>
+                    <li class='hidden-from-490 categorias'><a>Categorias<img src="icons/seta-para-baixo.png" alt=""></a>
                         <ul>
                             <li><a href="#jogos-aventura">Aventura</a></li>
                             <li><a href="#jogos-acao">Ação</a></li>
                         </ul>                
                     </li>
-                    <li class='hiden-from-490'><a href="#contatos">Contatos</a></li>
+                    <li class='hidden-from-490'><a href="#contatos">Contatos</a></li>
                 </ul>
             </nav>
              <!-- BUTTON LOGIN -->
             <div class="menu-right">
-                <a href="../index.html"><button class="login">Login</button></a>
+                <a class='hidden-from-620' href="../index.html"><button class="login">Login</button></a>
             </div>
-             <!-- MAIN -->
+            <!-- Botão menu hamburguer -->
+            <button  onclick="displayMenuToggle()"  class='btn-toggle'><img src="icons/toggle-menu-icon.png" alt=""></button>
+            <!-- MAIN -->
    </header>
        <main>
            <!-- BANNER -->

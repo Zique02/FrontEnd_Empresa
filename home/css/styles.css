@@ -13,7 +13,7 @@ body{
     font-family: 'Barlow Condensed', sans-serif;
 }
 
-/* Inicio da estilizaçao para menu 'hamburguer' */
+/* Inicio da estilizaçao para lista suspensa do menu 'hamburguer' */
 #toggle-screen{
     position: fixed;
     z-index: 100;
@@ -33,8 +33,10 @@ body{
     list-style: none;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
+    padding-bottom: 30px;
     color: #D62121;
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 12px;
@@ -51,21 +53,50 @@ body{
     border: none;
 }
 
-#toggle-screen ul li{
-    border-bottom: 1px solid rgb(214, 33, 33, 0.4);
-    padding-bottom: 9px;
+#toggle-screen ul li a{
+    text-decoration: none;
+    color: #D62121;
+}
+
+#toggle-screen li#close{
+    margin: 0;
+    padding: 0;
 }
 
 #toggle-screen #close{
-    align-self: stretch;
     align-self: flex-end;
-    
 }
 
 #toggle-screen #close img{
     width: 52px;
 }
-/* Fim da estilizaçao para menu 'hamburguer' */
+
+#toggle-screen li.login-in-menu button{
+    margin: 0;
+}
+
+#toggle-screen ul li ul{
+    position: absolute;
+    background-color: rgb(24, 23, 23);
+    display: none;
+    padding: 14px;
+    font-weight: bold;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#toggle-screen ul li ul a{
+    color: #D62121;
+}
+
+#toggle-screen ul li.categorias{
+    display: flex;
+    align-items: center;
+}
+
+/* Fim da estilizaçao para lista suspensa do menu 'hamburguer' */
 
 header{
     display: flex;
@@ -108,7 +139,18 @@ header{
     text-decoration: none;
 }
 
+.categorias{
+    display: flex;
+}
 
+.categorias img{
+    height: 24px;
+    margin-left: 6px;
+    margin-bottom: -7px;
+    border: 1px solid #D62121;
+    border-radius: 100%;
+    padding: 3px;
+}
 
 /* BUTTON LOGIN  */
 .login{
@@ -128,6 +170,18 @@ header{
 .menu-right{
     transition: 0.5s;
 }
+
+/* Botão menu hamburguer */
+button.btn-toggle{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+button.btn-toggle img{
+    height: 48px;
+}
+
 /* CATEGORIAS */
 .menu li ul{
     position: absolute;

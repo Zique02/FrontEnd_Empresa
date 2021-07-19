@@ -9,6 +9,11 @@
     display: block;
     border-radius: 5px;
 }
+
+#toggle-screen ul li:hover ul{
+    display: flex;
+    border-radius: 5px;
+}
 /* ------------------ */
 
 
