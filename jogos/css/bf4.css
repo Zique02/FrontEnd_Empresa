@@ -1,3 +1,6 @@
+/* Parte dos Jogos */
+
+@import url(../../css/animate.css);
 
 *
 {
@@ -7,16 +10,11 @@
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: 'Barlow Condensed', sans-serif;
-    /* Variaveis */
     --default-font-size: 1.5rem;
-    --default-color: #D62121;
+    
+    
 }
 
-body{
-    background-color: #353535;
-}
-
-/* CABEÇÂLHO */
 header
 {
     height: 90px;
@@ -24,7 +22,7 @@ header
     z-index: 10;
     width: 100vw;
     transition: background-color 1s;
-    animation: fadeIn 1s ease-in-out both;
+    animation: fadeIn 1s ease-out both;
 }
 
 header nav
@@ -57,9 +55,13 @@ header .logo
     padding: 3px 10px;
     border-left: 1px solid var(--default-color);
     color: var(--default-color);
-    font-weight: bolder; 
+    font-weight: bolder;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(250, 252, 249)), color-stop(100%, rgba(30,71,146,1)));
+        background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-/* Elemento à direita do cabeçalho */
+
 .game-reference
 {
     height: 60%;
@@ -84,7 +86,7 @@ header .logo
     background-size: 110%;
     background-repeat: no-repeat;
 }
-/* Descrição do jogo contida no baner */
+
 .banner .description{
     color: #ccc;
     margin-top: 10vh;
@@ -95,34 +97,26 @@ header .logo
     background-color: rgba(0,0,0,0.7);
     padding: 32px;
     border-radius: 9px;
-    animation: scaleOutIn 1s ease-in-out both;
+    animation: scaleOutIn 1s ease-out both;
 }
 
 .banner  .description h1{
     font-weight: bolder;
-    color: var(--default-color);
     font-size: 2em;
     margin-bottom: 12px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(250, 252, 249)), color-stop(100%, rgba(30,71,146,1)));
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
-.banner  .description .btn{
-    width: 120px;
-    height: 32px;
-    border-radius: 6px;
-    outline: none;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    font: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: var(--default-font-size);
-    margin-top: 24px;
-    background-color: var(--default-color);
-    opacity: 0.7;
+/* Parte do Jogo Battlefield4 */
+
+body{
+    background-color: #353535;
 }
-/* SEÇÂO DE DESCRIÇÂO DE ELEMENTOS DO GAME */
-.element-of-game.description{
-    display: none;
+
+.banner{
+    background-image: url('../img/bf4-gif.gif');
 }
 
 .element-of-game{
@@ -130,16 +124,12 @@ header .logo
     margin-top: 99px;
 }
 
-.element-of-game:first-child(){
-    margin-top: 0;
-}
-
 .element-of-game  h2{
     padding: 18px 0;
     background-color: #252525;
     text-align: center;
     font-size: bold;
-    color: var(--default-color);
+    color: rgb(139, 150, 247);
 }
 
 .element-of-game .content{
@@ -173,7 +163,6 @@ header .logo
     min-width: 300px;
 }
 
-/* Tag semantica para divisão do conteudo */
 hr {
     width: 100%;
     height: 1px;

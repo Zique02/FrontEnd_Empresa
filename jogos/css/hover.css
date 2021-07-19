@@ -1,0 +1,8 @@
+/* Hover para logo no cabeçalho */
+header .logo:hover{
+    opacity: 0.7;
+}
+
+h2:hover{
+color:hsla(0, 73%, 48%, 0.7);
+}

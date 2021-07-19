@@ -1,13 +1,11 @@
 @import url(jogos.css);
 @import url(../../css/animate.css);
-
-body{
-    background-color: #353535;
-}
+@import url(./hover.css);
+@import url(./responsive.css);
+@import url(./responsive.css);
 
 .banner{
 
-    background-image: url('../img/gow-bg.webp');
 }
 
 .element-of-game{
@@ -61,3 +59,13 @@ hr {
     border-top: 1px solid #252525;
     background-color: #252525;
 }
+
+    background-image: url('../img/gow-bg.png');
+}
+
+@media (max-width: 840px){
+    .banner{
+        background-image: url(../img/kratos.jpg);
+    }
+}
+
